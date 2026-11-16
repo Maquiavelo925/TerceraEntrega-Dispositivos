@@ -1,0 +1,17 @@
+# Carpetas que Unreal regenera
+Saved/
+Intermediate/
+DerivedDataCache/
+/Binaries/
+.vs/
+*.sln
+
+# Plugin Meta XR: solo hacen falta los .dll, no los intermedios ni los símbolos de depuración
+Plugins/*/Intermediate/
+*.pdb
+
+# Restos de trabajo de los scripts generadores
+Tools/GeneradorPython/*.log
+Tools/GeneradorPython/*.txt
+Tools/GeneradorPython/*.bak
+Tools/GeneradorPython/__pycache__/
